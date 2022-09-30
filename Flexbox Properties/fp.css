@@ -1,0 +1,57 @@
+section {
+    margin: 2ch;
+    width: fit-content;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 2ch;
+}
+div {
+    width: 90vw;
+    height: 90vh;
+}
+#yellow {
+    width: 200px;
+    background-color: rgb(238, 238, 144);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2ch;
+}
+article {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    text-align: center;
+    padding-top: 2ch;
+}
+#red {
+ width: 200px; 
+ background-color: rgb(241, 161, 161); 
+ position: relative;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center; 
+gap: 2ch;
+}
+#green {
+    width: 150px;
+    background-color: rgb(189, 245, 189);
+}
+#orange {
+    width: 400px;
+    background-color: rgb(243, 215, 164);
+    
+}
+#blue {
+    width: 150px;
+    background-color: rgb(84, 190, 223);
+}
+#green, #orange, #blue {
+    text-align: center;
+    align-items: center;
+
+}
